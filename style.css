@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 36%, rgba(255, 231, 123, 1) 100%);
+  height: 150vh;
+}
+.card {
+  margin: 5% 30%;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.isi-card {
+  color: #574629;
+  border-radius: 10px;
+  background-color: #f0c47d;
+  justify-content: center;
+  padding: 20px 20px;
+  margin: 10px 5%;
+}
+
+.isi-card h1 {
+  text-align: center;
+}
+
+.isi-card button {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 1% 2%;
+  background-color: #f0c47d;
+  border-radius: 70px;
+  background: #f0c47d;
+  box-shadow: 0px 0px 30px #f6d39a, 0px 0px 30px #f6d39a;
+}
+
+.isi-card button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #f0c47d;
+  box-shadow: none;
+}
+.daftar-tugas {
+  border-radius: 10px;
+  padding: 2% 0;
+  background-color: rgb(126, 187, 150);
+  margin: 5% 5% 5% 5%;
+}
+.daftar-tugas h1 {
+  color: rgb(43, 67, 52);
+  font-family: "Varela Round", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+}
+
+.desk-tugas {
+  height: 100px;
+}
+.desk {
+  width: 410px;
+}
+.isi-card input {
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.tugas {
+  color: rgb(43, 67, 52);
+  margin: 2%;
+  padding: 2%;
+  border: 2px solid #ffffff;
+}
+
+@media (width < 1000px) {
+  .card {
+    margin: 0 0;
+  }
+  .desk {
+    width: 100%;
+  }
+}
+
+@media (width > 1000px) {
+  .list-tugas {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid: 100px / auto auto auto;
+  }
+}
